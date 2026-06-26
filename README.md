@@ -1,6 +1,6 @@
 # Android Network Logger
 
-A university final-project toolkit for inspecting HTTP traffic from an Android app in real time. The project has three parts:
+A project toolkit for inspecting HTTP traffic from an Android app in real time. The project has three parts:
 
 - **network-logger-lib** — Android library that intercepts OkHttp requests, stores them in Room, and serves them over an embedded Ktor server.
 - **app** — Demo Android app with buttons that trigger sample API calls.
