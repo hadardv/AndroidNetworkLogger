@@ -86,20 +86,6 @@ Use this list every time you work on the project:
 - [ ] **10. Tap a button** in the demo app (e.g. "GET – Success") and confirm the request appears in the dashboard
 
 ---
-
-## Terminal reference
-
-All commands assume the project is at `~/Desktop/AndroidNetworkLogger`.
-
-### Android app (alternative to Android Studio)
-
-```bash
-cd ~/Desktop/AndroidNetworkLogger
-./gradlew :app:installDebug
-```
-
-Then open **Network Logger Demo** on the device.
-
 ### Port forwarding
 
 ```bash
@@ -112,13 +98,6 @@ Then open **Network Logger Demo** on the device.
 cd ~/Desktop/AndroidNetworkLogger/web-dashboard
 npm run dev
 ```
-
-To start Vite without running `adb forward` (if you already forwarded manually):
-
-```bash
-npm run dev:only
-```
-
 ---
 
 ## What each component does
