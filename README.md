@@ -44,17 +44,6 @@ Full expanded path:
 ```
 /Users/<your-username>/Library/Android/sdk/platform-tools/adb
 ```
-
-### Optional: add ADB to your PATH
-
-Add this line to `~/.zshrc`, then restart the terminal:
-
-```bash
-export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
-```
-
-After that you can type `adb` directly instead of the full path.
-
 ---
 
 ## How to run everything
